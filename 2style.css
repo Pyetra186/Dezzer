@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    background-color: hsl(0, 0%, 0%);
+}
+.search{
+   width: 1520px;
+   height: 60px;
+   background-color: #575757;
+   position: relative;
+   display: flex;
+   margin-left: 400px;
+}
+.search .search_logo{
+    width: 35px;
+    
+}
+.pesquisar{
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 15px;
+    color: #e3e3e3;
+    font-family: 'Open Sans', sans-serif;
+}
+.menu{
+    width: 400px;
+    height: 930px;
+    background-color: #565655;
+    position: absolute;
+}
+.logos{
+    display: flex;
+}
+.menu .logo{
+    width: 180px;
+    height: 40px;
+    margin-top: -50px;
+    margin-left: 20px;
+    
+}
+
+.menu .seta{
+    width: 55px;
+    margin-top: -50px;
+    margin-left: 90px;
+  
+    
+}
+.menu .title{
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 30px;
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title .title4{
+    margin-top: 70px;
+}
+.title .title3{
+    margin-top: 70px;
+}
+.title .title2{
+    margin-top: 70px;
+}
+.title .title1{
+    margin-top: 70px;
+}
